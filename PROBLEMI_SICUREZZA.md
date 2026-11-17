@@ -73,3 +73,7 @@ cd ~/Downloads/vpn-chain
 ```
 
 Ti fa in automatico: controllo sintassi Compose e `vpn.sh`, test che `127.0.0.1` sia bloccato (`0x5b`), check statici sul `docker-compose.yml`, scan **Trivy** (`0` problemi su `proxy/Dockerfile`) e scan **KICS** (`0` Critical, `0` High, `5` Medium residui).
+
+---
+
+*Nota: questa analisi di sicurezza e le relative patch di hardening sono state realizzate con il supporto di un team multi-agente di AI.*
